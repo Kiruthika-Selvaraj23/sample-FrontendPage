@@ -15,7 +15,7 @@ export default function Home() {
                 <li className="listStyle">About</li>
             </ul>
             <div className='desc-container'>
-                <img src={product} className='image' />
+                <img src={product} className='image' alt="productsImage" />
                 <div>
                     <h1 className='card-heading'>Didital Products</h1>
                     <div className="home-desc-container">
