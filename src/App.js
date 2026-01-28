@@ -1,17 +1,18 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Footer from "./components/Footer"
-import MyForm from './components/MyForm';
-import Home from './components/Home';
-import Cards from './components/Cards';
+import FrontPage from './components/FrontPage';
+import SuccessLogin from './components/SuccessLogin';
+import FruitsDesc from './components/FruitsDesc';
 
 export default function App() {
   return (
-    <div className="App">
-       <Home/>
-      <MyForm />
-      <Cards/>
-      <Footer />
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<FrontPage />} />
+        <Route path='/successLogin' element={<SuccessLogin />} />
+        <Route path="/fruitsDesc/:id" element={<FruitsDesc/>} />
+      </Routes>
+    </>
   );
 }
 

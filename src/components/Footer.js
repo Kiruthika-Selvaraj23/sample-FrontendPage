@@ -3,7 +3,7 @@ import '../App.css'
 export default function Footer() {
     return (
         <div className='footer-bg-container'>
-            <h1>Follow us</h1>
+            <h1 className='text-[30px] font-bold'>Follow us</h1>
             <i class="bi bi-instagram icons"></i>
             <i class="bi bi-facebook icons"></i>
             <i class="bi bi-twitter icons"></i>

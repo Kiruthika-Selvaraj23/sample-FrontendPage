@@ -6,7 +6,7 @@ import Mobile from "../accets/Mobile.jfif"
 export default function Cards() {
     return (
         <div className="cards-container">
-            <h1 className="cards-heading">Cards</h1>
+            <h1 className="cards-heading text-[30px] font-bold">Cards</h1>
             <div className="card-display">
             <div className="card-items">
                 <div className="item-detail-container">
