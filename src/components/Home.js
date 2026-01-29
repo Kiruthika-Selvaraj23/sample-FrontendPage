@@ -14,6 +14,8 @@ export default function Home() {
                 <li className="listStyle">Explore</li>
                 <li className="listStyle">About</li>
             </ul>
+
+            
             <div className='desc-container'>
                 <img src={product} className='image' alt="productsImage" />
                 <div>
